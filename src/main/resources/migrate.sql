@@ -1,3 +1,5 @@
+--create database students;
+
 create table if not exists groups(
 	group_id int not null AUTO_INCREMENT,
 	group_number varchar(32) not null,
